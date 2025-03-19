@@ -6,9 +6,9 @@ import * as motion from "motion/react-client";
 
 export default function HowItWorks() {
   return (
-    <section className="flex flex-col justify-between md:flex-row">
-      <motion.div className="transition-all duration-300" whileHover={{ scale: 0.9 }}>
-        <Card className="md:w-[25rem]">
+    <section className="flex flex-col justify-between gap-4 md:flex-row py-8">
+      <motion.div className="transition-all duration-300 mx-auto" whileHover={{ scale: 0.9 }}>
+        <Card className="w-[20rem] md:w-[25rem] ">
           <CardHeader className="p-0">
             <Image
               alt="image1"
@@ -33,8 +33,8 @@ export default function HowItWorks() {
           </CardBody>
         </Card>
       </motion.div>
-      <motion.div className="transition-all duration-300" whileHover={{ scale: 0.9 }}>
-        <Card className="md:w-[25rem]">
+      <motion.div className="transition-all mx-auto duration-300" whileHover={{ scale: 0.9 }}>
+        <Card className="w-[20rem] md:w-[25rem]">
           <CardHeader className="p-0">
             <Image
               alt="image1"
@@ -59,8 +59,8 @@ export default function HowItWorks() {
           </CardBody>
         </Card>
       </motion.div>
-      <motion.div className="transition-all duration-300" whileHover={{ scale: 0.9 }}>
-        <Card className="md:w-[25rem]">
+      <motion.div className="transition-all duration-300 mx-auto" whileHover={{ scale: 0.9 }}>
+        <Card className="w-[20rem] md:w-[25rem]">
           <CardHeader className="p-0">
             <Image
               alt="image1"
